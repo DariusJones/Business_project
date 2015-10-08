@@ -5,15 +5,18 @@
 	<meta charset="utf-8">
 	<title><%= @title %></title>
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="/js/main.js"></script>
 </head>
 
 <body>
 
 	<%
-		nav = ["Home", "About Us", "Our Products", "Our Services"] 
-		pages = ["/", "about", "products", "services"] 
+		nav = ["Home", "Menu", "Our Story", "Contact"] 
+		pages = ["/", "menu", "story", "contact"] 
 	%>
-
+	<nav class="pull-left">
 	<ul style="list-style-type: none; padding-left: 0">
 
 	<!-- start ruby -->	
@@ -27,6 +30,10 @@
 	<!-- end ruby -->
 
 	</ul>
+	</nav>
+	<div class="jumbotron">
+		
+	</div>
 
 	<!-- start ruby -->
 	<%= yield %>	

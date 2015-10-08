@@ -3,17 +3,17 @@ get '/' do
 	@title = "Home"
 	erb :home
 end
-get '/about' do 
-	@title = "About"
-	erb :about
+get '/menu' do 
+	@title = "Menu"
+	erb :menu
 end
-get '/services' do 
-	@title = "Services"
-	erb :services
+get '/story' do 
+	@title = "Our Story"
+	erb :story
 end
-get '/products' do 
-	@title = "Our Products"
-	erb :products
+get '/contact' do 
+	@title = "Contact Us"
+	erb :contact
 end
 get '/form' do 
 	@title = "Form"
