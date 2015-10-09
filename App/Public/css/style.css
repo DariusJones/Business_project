@@ -37,7 +37,7 @@
 .nav {
 	font-weight:bold;
 	margin-bottom:0px;
-	background-color: #A31919;
+	background-color: rgb(85,25,25);
 	height: 70px;
 	line-height: 64px;
 }
@@ -60,7 +60,7 @@
 	text-decoration: none;
 	font-weight:bold;
 	color:white;
-	background-color: #A31919;
+	background-color: rgb(85,25,25);
 	/*float:left;*/
 }
 
