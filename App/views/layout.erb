@@ -16,8 +16,8 @@
 		nav = ["Home", "Menu", "Our Story", "Contact"] 
 		pages = ["/", "menu", "story", "contact"] 
 	%>
-	<nav class="pull-left">
-	<ul style="list-style-type: none; padding-left: 0">
+	<div class="nav">
+	<ul class="pull-left" style="list-style-type: none; padding-left: 0">
 
 	<!-- start ruby -->	
 	<% nav.each_with_index do |nav_item, nav_index| %>
@@ -30,15 +30,53 @@
 	<!-- end ruby -->
 
 	</ul>
-	</nav>
+	</div>
 	<div class="jumbotron">
-		
+		<div class="container">
+			<div class="row">
+				<div class ="col-md-6">
+					<div class="img-container">
+						<img src="/images/vdrlogo.jpg">
+					</div>
+				</div>
+				<div class ="col-md-6">
+					<div class="banner-text">
+						<h1>Serving friends and family since xxxx</h1>
+					</div>
+				</div>
+
+			</div>
+		</div>
 	</div>
 
 	<!-- start ruby -->
 	<%= yield %>	
 	<!-- end ruby -->
 <hr>
-<p>Footer!</p>
+<div class="footer-container">
+	<div class="row">
+		<div class="col-md-4">
+			<h5>Villa di Roma</h4>
+			<p>936 S 9th St</p>
+			<p>Philadelphia, PA 19147</p>
+			<p>215-592-1295 </p>
+		</div>
+		<div class="col-md-4">
+			<h5>Hours</h5>
+			<p>Mon: 4pm-10pm</p>
+			<p>Tue-Sun: 12pm-10pm</p>
+		</div>
+		<div class="col-md-4">
+			<h5>Find us on Facebook!</h5>
+			<a href="https://www.facebook.com/villadiromasouthphilly" target="_blank">
+				<img src="/images/fbicon.png" height="60px" width="auto">
+			</a>
+
+		</div>
+
+
+	</div>
+
+</div>
 </body>
 </html>
