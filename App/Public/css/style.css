@@ -1,10 +1,11 @@
-body {
-	background-color: lightblue;
+#body {
+	background-color: #E0D1C2;
+	margin: 0px;
 }
 
 .jumbotron {
 	background-image: url(/images/redbrick.jpg);
-	height: 360px;
+	height: 265px;
 	width:100%;
 	background-repeat: no-repeat;
 	margin-bottom: 0px;
@@ -24,9 +25,14 @@ body {
 
 .banner-text {
 	color: white;
+	vertical-align: middle
 }
 
-
+.banner-text h1 {
+	font-family: 'IM Fell English', serif;
+	vertical-align: middle;
+	text-align: center;
+}
 
 .nav {
 	font-weight:bold;
@@ -64,3 +70,21 @@ body {
 .headline {
 	text-align: center;
 }
+
+.form-container {
+	margin-left: 10%;
+}
+
+
+
+.meatballs {
+	margin-top: 9rem;
+	border: 2px solid #666666;
+}
+
+
+
+
+
+
+

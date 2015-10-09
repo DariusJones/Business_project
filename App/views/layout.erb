@@ -6,11 +6,12 @@
 	<title><%= @title %></title>
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="/js/main.js"></script>
 </head>
 
-<body>
+<body id="body">
 
 	<%
 		nav = ["Home", "Menu", "Our Story", "Contact"] 
@@ -41,7 +42,7 @@
 				</div>
 				<div class ="col-md-6">
 					<div class="banner-text">
-						<h1>Serving friends and family since xxxx</h1>
+						<h1><%= @banner_text %></h1>
 					</div>
 				</div>
 

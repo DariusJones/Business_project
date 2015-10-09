@@ -3,18 +3,22 @@ require 'mandrill'
 
 get '/' do 
 	@title = "Home"
+	@banner_text = "Serving friends and family since xxxx"
 	erb :home
 end
 get '/menu' do 
 	@title = "Menu"
+	@banner_text = 'Our Menu'
 	erb :menu
 end
 get '/story' do 
 	@title = "Our Story"
+	@banner_text = "Our Story"
 	erb :story
 end
 get '/contact' do 
 	@title = "Contact Us"
+	@banner_text = "Contact Us"
 	erb :contact
 end
 
