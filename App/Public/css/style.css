@@ -135,9 +135,32 @@
 .home-header {
 	font-family: 'IM Fell English', serif;
 	text-align: center;
-	margin-top: 83px;
+	margin: 30px;
 }
 /*This is the query css ________________________________________*/
+
+
+
+@media screen and (min-width: 768px){
+	.jumbotron h1{
+		font-size: 36px;
+	}
+}
+
+@media screen and (min-width: 465px){
+	.jumbotron h1{
+		font-size: 36px;
+	}
+}
+
+@media screen and (max-width: 465px){
+	.jumbotron h1{
+		font-size: x-large;
+	}
+
+}
+
+
 @media screen and (max-width: 450px) {
     #body {
         background-color: #E0D1C2;
@@ -191,6 +214,25 @@ img {
 .nav {
 	text-align: center;
 }
+
+.fb-icon {
+	height:60px;
+	width:auto;
+}
+
+}
+
+@media (min-width: 992px) {
+	.jumbotron h1 {
+		font-size: 63px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	.contact-img-container {
+		text-align: center;
+	}
 }
 
 
