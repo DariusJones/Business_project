@@ -135,7 +135,7 @@
 .home-header {
 	font-family: 'IM Fell English', serif;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 83px;
 }
 /*This is the query css ________________________________________*/
 @media screen and (max-width: 450px) {
@@ -192,6 +192,8 @@ img {
 	text-align: center;
 }
 }
+
+
 /*##_______________________Erins Code_______________________________*/
 .menu-details {
 	font-size: 12px;
@@ -208,7 +210,7 @@ img {
 .menu-wrapper {
 	clear: both;
 	border: black solid 2px;
-	width: 900px;
+	width: 70%;
 	margin: 0 auto;
 	background-color: white;
 }
@@ -223,12 +225,14 @@ img {
 }
 .food-photos {
 	float: left;
-	padding: 10px 10px;
+	margin: 10px 10px;
+	border:2px solid #666666;
 }
 .food-gallery {
 	width: 900px;
 	margin: 0 auto;
 	padding: 0px 30px;
+	padding-left: 43px;
 }
 .price {
 	font-size: 14px;
@@ -242,7 +246,7 @@ img {
 	background-color: black;
 	color: white;
 	font-size: 16px;
-	opacity: 0.75;
+	opacity: 0.25;
 	padding: 5px 5px;
 }
 .menu-nav:link, .menu-nav:visited {
@@ -253,6 +257,10 @@ img {
 .menu-nav:hover, .menu-nav:active {
 	color: darkred;
 	text-decoration: none;
+}
+
+.fa-2x{
+	cursor: pointer;
 }
 
 
